@@ -1,5 +1,5 @@
-# Landing page de médicos
-Encuentra a los mejores especialistas y laboratorios para estudios médicos.
+# Doctors Landing Page
+Find the best specialists and laboratories for medical studies.
 
 ## Mobile
 
