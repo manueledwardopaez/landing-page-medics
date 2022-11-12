@@ -1,0 +1,27 @@
+.button {
+    padding-inline: .75rem;
+    padding-block: .25rem;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background: var(--primary);
+    font: var(--body-p2-bold);
+    color: #ffffff;
+}
+
+.button.is-secondary {
+    background: var(--white);
+    color: var(--blue-dark);
+    font: var(--body-p1-regular);
+    padding-inline: 2.75rem;
+    padding-block: .875rem;
+}
+
+.button:active {
+    transform: scale(.9);
+}
+
+.button:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+    transition: .2s;
+}

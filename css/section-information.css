@@ -1,0 +1,52 @@
+.section-information {
+    padding-inline-start: 7.5rem;
+    padding-inline-end: .1rem;
+   /*  background: url('../images/Img-doctors-3.png') no-repeat top right; */
+}
+
+.section-information div {
+    max-inline-size: 50%;
+}
+
+.section-information .section-img {
+    background: url('../images/Img-doctors-3.png') no-repeat top right;
+    inline-size: 735px;
+    block-size: 584px;
+}
+
+@media screen and (max-width: 1100px) {
+    .section-information {
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 0;
+        padding-inline-end: .1rem;
+        
+    }
+
+    .section-information .section-text {
+        margin-inline: 7.5rem;
+    }
+
+    .section-information div{
+        max-inline-size: 100%;
+    }
+
+    .section-information .section-img {
+        inline-size: 100%;
+    }
+
+    .section-information .section-img img {
+        inline-size: 100%;
+        object-fit: fill;
+    }
+
+    .section-information .button {
+        inline-size: 100%;
+    }
+}
+/* 
+@media screen and (max-width: 500px) {
+    .section-information .section-img  {
+        
+    }
+} */

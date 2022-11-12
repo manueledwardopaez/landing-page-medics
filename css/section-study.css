@@ -1,0 +1,43 @@
+.section-study {
+    flex-direction: row-reverse;
+   /*  background: url('../images/ellipse.png') no-repeat left; */
+}
+
+.section-study div {
+    max-inline-size: 50%;
+}
+
+/* 
+.section-study{
+    background: url('../images/ellipse.png') no-repeat left;
+}
+
+ */
+
+
+ @media screen and (max-width: 1100px) {
+    .section-study {
+        flex-direction: column;
+    }
+
+    .section-study div {
+        max-inline-size: 100%;
+    }
+
+ /*    .section-study .section-img {
+        inline-size: 319px;
+        block-size: 311px;
+    }
+ */
+    .section-study .section-img img {
+        inline-size: 100%;
+    }
+
+    .offer-list {
+        inline-size: 100%;
+    }
+
+    .offer-item div{
+        display: inline-flex;
+    }
+ }

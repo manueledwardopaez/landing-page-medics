@@ -1,0 +1,17 @@
+.offer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    inline-size: 100%;
+    padding-block-end: 2rem;
+}
+
+.offer-item {
+    display: flex;
+    align-items: center;
+}
+
+.offer-item p {
+    padding-inline: .75rem;
+    inline-size: 300px;
+}

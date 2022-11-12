@@ -1,0 +1,46 @@
+@import './wrapper.css';
+@import './nav.css';
+@import './button.css';
+@import './section.css';
+@import './section-specialist.css';
+@import './section-study.css';
+@import './section-information.css';
+@import './section-feedback.css';
+@import './section-cita.css';
+@import './offer-list.css';
+@import './footer.css';
+
+:root { 
+  font-size: 16px;
+  --white: #f0f4f7; 
+  --grey: #445264; 
+  --primary: #58c0a6; 
+  --green-dark: #04503d; 
+  --blue-dark: #222e55; 
+  --greey-ligth: #e4e4e4; 
+  --green-ligth: #e9f7fc; 
+  --h1: 800 4rem/5rem 'Plus Jakarta Sans'; 
+  --h2: 700 2.5rem/4rem 'Plus Jakarta Sans'; 
+  --h3: 800 1.75rem/3.5rem 'Plus Jakarta Sans'; 
+  --h4: 700 1.125rem/3rem 'Plus Jakarta Sans'; 
+  --body-p1-regular: 400 1.25rem/2rem 'Plus Jakarta Sans'; 
+  --body-p1-bold: 700 1.25rem/2rem 'Plus Jakarta Sans'; 
+  --body-p2-regular: 400 0.875rem/2.5rem 'Plus Jakarta Sans'; 
+  --body-p2-bold: 700 0.875rem/2.5rem 'Plus Jakarta Sans'; 
+  --body-p3-regular: 400 0.75rem/2.5rem 'Plus Jakarta Sans';      
+}
+
+body {
+  background: var(--white);
+  padding: 0;
+  margin: 0;
+  font-family: 'Plus Jakarta Sans';
+}
+
+@media screen and (max-width: 769px) {
+  :root {
+    font-size: 14px;
+
+  }
+
+} 

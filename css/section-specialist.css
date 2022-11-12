@@ -1,0 +1,56 @@
+
+.section-specialist div {
+    max-inline-size: 50%;
+}
+
+.section-specialist .section-text h1 {
+    font: var(--h1);
+    margin: 0;
+    padding-block-end: 1.25rem;
+}
+
+.section-specialist .section-text p {
+    font: var(--body-p1-regular);
+    color: var(--grey);
+    padding-block-end: 5.375rem;
+}
+
+
+
+.section-img img {
+    inline-size: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .section-specialist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-specialist div {
+        max-inline-size: 100%;
+    }
+
+/*     .section-specialist.section-img {
+        inline-size: 320px;
+        block-size: 269px;
+    } */
+
+    .section-specialist .section-text h1 {
+        /* font: var(--h3); */
+        margin: 0;
+        padding-block-end: 0;
+    }
+
+    .section-specialist .section-text p {
+        font: var(--body-p1-regular);
+        color: var(--grey);
+        padding-block-end: 0;
+    }
+
+    .section-specialist .button {
+        inline-size: 100%;
+        margin-block-end: 64px;
+    }
+}

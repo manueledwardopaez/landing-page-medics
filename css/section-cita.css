@@ -1,0 +1,18 @@
+.section-cita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5.25rem;
+    text-align: center;
+    background: var(--primary);
+    background-image: url('../images/bg-cita.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 5.9375rem;
+    padding-inline: 1rem;
+    margin-block-end: 12.5rem;
+    border: .625rem solid #fff;
+    border-radius: 1rem;
+
+}
